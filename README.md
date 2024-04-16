@@ -1,2 +1,2 @@
 # luongtracducanh.github.io
-Config files for my personal website, click this [link](https://luongtracducanh.github.io/) to view.
+Config files for my personal portfolio, click this [link](https://luongtracducanh.github.io/) to view.
