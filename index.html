@@ -24,6 +24,11 @@
 
   <!-- Custom styles for this template -->
   <link href="css/resume.min.css" rel="stylesheet" />
+  <link href="css/resume.css" rel="stylesheet" />
+
+  <style>
+
+  </style>
 </head>
 
 <body id="page-top">
@@ -31,7 +36,7 @@
     <a class="navbar-brand js-scroll-trigger" href="#page-top">
       <span class="d-block d-lg-none">My Resume</span>
       <span class="d-none d-lg-block">
-        <img class="img-fluid img-profile rounded-circle mx-auto mb-2" src="img/profile.jpg" alt="" />
+        <img class="img-fluid img-profile rounded-circle mx-auto mb-2" src="img/profile.png" alt="" />
       </span>
     </a>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
@@ -47,6 +52,9 @@
           <a class="nav-link js-scroll-trigger" href="#experience">Experience</a>
         </li>
         <li class="nav-item">
+          <a class="nav-link js-scroll-trigger" href="#projects">Projects</a>
+        </li>
+        <li class="nav-item">
           <a class="nav-link js-scroll-trigger" href="#education">Education</a>
         </li>
         <li class="nav-item">
@@ -56,7 +64,7 @@
           <a class="nav-link js-scroll-trigger" href="#interests">Interests</a>
         </li> -->
         <li class="nav-item">
-          <a class="nav-link js-scroll-trigger" href="#awards">Awards</a>
+          <a class="nav-link js-scroll-trigger" href="#certifications">Certifications</a>
         </li>
       </ul>
     </div>
@@ -70,9 +78,10 @@
           <span class="text-primary">Duc Anh</span>
         </h1>
         <div class="subheading mb-5">
-          La Thanh Street · Dong Da, Hanoi ·
+          Hoang Quoc Viet Street · Cau Giay, Hanoi ·
           <a href="mailto:luongtrac.ducanh@gmail.com">luongtrac.ducanh@gmail.com</a>
         </div>
+        <!-- <p class="mb-5">Self intro....</p> -->
         <ul class="list-inline list-social-icons mb-0">
           <li class="list-inline-item">
             <a href="https://github.com/luongtracducanh">
@@ -100,27 +109,95 @@
 
         <div class="resume-item d-flex flex-column flex-md-row mb-5">
           <div class="resume-content mr-auto">
+            <h3 class="mb-0">OutSystems Developer</h3>
+            <div class="subheading mb-3">NTT e-MOI JSC. (formerly OCG Technology JSC.)</div>
+            <ul>
+              <li>Managed data and business logic using OutSystems and Oracle, optimizing performance for complex
+                queries.</li>
+              <li>Created a User Management System for <strong>5 applications</strong>, handling user logs and enforcing
+                usage limits
+                across multiple User Providers.</li>
+              <li>Improved file transfers: Reduced download latency by <strong>30%</strong> using Amazon S3 and upload
+                latency by <strong>40%</strong>
+                with custom JavaScript methods.</li>
+              <li>Developed a C# extension to process <strong>2,000+ records</strong> daily, resolving API data mismatch
+                for seamless
+                integration.</li>
+              <li>Automated platform monitoring with Workato, saving <strong>5 hours</strong> of manual work weekly for
+                the Operations
+                team.</li>
+              <li>Facilitated knowledge transfer for <strong>5 applications</strong> from development to maintenance
+                teams.</li>
+              <li>Resolved <strong>90%</strong> of customer tickets within 24 hours, achieving a <strong>95%</strong>
+                satisfaction rate.</li>
+            </ul>
+          </div>
+          <div class="resume-date text-md-right">
+            <span class="text-primary">December 2023 - Present</span>
+          </div>
+        </div>
+        <div class="resume-item d-flex flex-column flex-md-row mb-5">
+          <div class="resume-content mr-auto">
             <h3 class="mb-0">OutSystems Intern</h3>
-            <div class="subheading mb-3">OCG Technology</div>
-            <p>
-              <!-- Update later -->
-            </p>
+            <div class="subheading mb-3">OCG Technology JSC.</div>
+            <ul>
+              <li>Completed <strong>100+ hours</strong> of OutSystems training, focusing on Reactive Web Applications,
+                data modeling, UI/UX design, and business logic.</li>
+              <li>Built an e-commerce website as a capstone project with <strong>6 core features</strong> using
+                OutSystems, including user authentication, product catalogs, shopping carts, order processing, admin
+                dashboard, and Excel export.</li>
+            </ul>
           </div>
           <div class="resume-date text-md-right">
             <span class="text-primary">September 2023 - November 2023</span>
           </div>
         </div>
 
+      </div>
+    </section>
+
+    <section id="projects" class="section resume-section p-3 p-lg-5 d-flex flex-column">
+      <div class="my-auto">
+        <h2 class="mb-5">Projects</h2>
+
         <div class="resume-item d-flex flex-column flex-md-row mb-5">
           <div class="resume-content mr-auto">
-            <h3 class="mb-0">OutSystems Developer</h3>
-            <div class="subheading mb-3">OCG Technology</div>
+            <h3 class="mb-0">AI Smart Vision for Housing Management</h3>
+            <div class="subheading mb-3">University Capstone Project</div>
             <p>
-              <!-- Update later -->
+              <em>A housing management system for detecting housing changes annually in Hanoi.</em>
             </p>
+            <ul>
+              <li><strong>Team size:</strong> <strong>5</strong> members, coordinating across <strong>3</strong>
+                technical specialties (AIE, DE, SE).</li>
+              <li><strong>Role:</strong> OutSystems Developer, contributed to <strong>40%</strong> of the total
+                codebase.</li>
+              <li>Integrated ML model API to analyze <strong>100+ satellite images</strong> (2GB+) with
+                <strong>85%</strong> accuracy in house detection.
+              </li>
+              <li>Built high-performance API processing <strong>70+ houses/second</strong>, storing data for
+                <strong>10,000+ houses</strong> in SQL Server.
+              </li>
+              <li>Optimized visual rendering of <strong>200+</strong> house bounding boxes in <strong>&lt; 5
+                  seconds</strong> per image.</li>
+              <li>Created <strong>3 interactive dashboards</strong> visualizing housing data across <strong>10+ urban
+                  areas</strong> for data analysis.</li>
+              <li>Developed export functionality for <strong>10,000 records</strong> in 4 formats, processing in
+                <strong>&lt; 40 seconds</strong>.
+              </li>
+            </ul>
+            <div class="mb-3">
+              <span class="badge bg-primary text-white mr-2 p-2">OutSystems</span>
+              <span class="badge bg-primary text-white mr-2 p-2">P5.js</span>
+              <span class="badge bg-primary text-white mr-2 p-2">jQuery</span>
+              <span class="badge bg-primary text-white mr-2 p-2">JavaScript</span>
+              <span class="badge bg-primary text-white mr-2 p-2">CSS</span>
+              <span class="badge bg-primary text-white mr-2 p-2">REST APIs</span>
+              <span class="badge bg-primary text-white mr-2 p-2">SQL Server</span>
+            </div>
           </div>
           <div class="resume-date text-md-right">
-            <span class="text-primary">December 2023 - Present</span>
+            <span class="text-primary">May 2024 - August 2024</span>
           </div>
         </div>
       </div>
@@ -134,24 +211,25 @@
           <div class="resume-content mr-auto">
             <h3 class="mb-0">Swinburne University of Technology</h3>
             <div class="subheading mb-3">
-              Bachelor of Infomation and Communication Technology
+              Bachelor of Infomation and Communication Technology, Software Technology
             </div>
-            <div>Software Technology</div>
-            <p>GPA: 3.6/4.0</p>
+            <p>GPA: 3.667/4.0</p>
+            <ul>
+              <li>Scholarship of Merits (40%)</li>
+              <li>Swin Hackathon 2023 Finalist</li>
+              <li>Swin-Biz-Rockstar 2022 Finalist</li>
+              <li>Best Performances in:
+                <ul>
+                  <li>COS20019: Cloud Computing Architecture</li>
+                  <li>COS30020: Advanced Web Development</li>
+                  <li>SWE30010: Managing IT Projects</li>
+                  <li>SWE30011: IoT Programming</li>
+                  <li>INF20028: Professional Capabilities for a Digital World</li>
+                </ul>
+            </ul>
           </div>
           <div class="resume-date text-md-right">
-            <span class="text-primary">August 2021 - August 2024</span>
-          </div>
-        </div>
-
-        <div class="resume-item d-flex flex-column flex-md-row">
-          <div class="resume-content mr-auto">
-            <h3 class="mb-0">Hoang Cau High School</h3>
-            <!-- <div class="subheading mb-3">English Specialized Class</div> -->
-            <p>GPA: 9.1/10.0</p>
-          </div>
-          <div class="resume-date text-md-right">
-            <span class="text-primary">August 2018 - May 2021</span>
+            <span class="text-primary">September 2021 - August 2024</span>
           </div>
         </div>
       </div>
@@ -162,7 +240,7 @@
         <h2 class="mb-5">Skills</h2>
 
         <div class="subheading mb-3">Programming Languages &amp; Tools</div>
-        <ul class="list-inline list-icons">
+        <!-- <ul class="list-inline list-icons">
           <li class="list-inline-item">
             <i class="devicons devicons-html5"></i>
           </li>
@@ -202,7 +280,35 @@
           <li class="list-inline-item">
             <i class="devicons devicons-github"></i>
           </li>
+        </ul> -->
+        <ul class="fa-ul mb-0">
+          <li>
+            <i class="fa-li fa fa-check"></i>Low-code: OutSystems, Workato.
+          </li>
+          <li>
+            <i class="fa-li fa fa-check"></i>Frontend: HTML, CSS, JavaScript, JQuery.
+          </li>
+          <li>
+            <i class="fa-li fa fa-check"></i>Backend: C# & .NET, PHP.
+          </li>
+          <li>
+            <i class="fa-li fa fa-check"></i>Database: Microsoft SQL Server, Oracle, MySQL.
+          </li>
+          <li>
+            <i class="fa-li fa fa-check"></i>Other Programming Languages: Python, Ruby.
+          </li>
+          <li>
+            <i class="fa-li fa fa-check"></i>Cloud Computing: AWS (S3, EC2, RDS, VPC, Lambda).
+          </li>
+          <li>
+            <i class="fa-li fa fa-check"></i>Version Control: Git, Github.
+          </li>
+          <li>
+            <i class="fa-li fa fa-check"></i>Others: ClickUp, Zendesk.
+          </li>
         </ul>
+
+        <div style="height: 30px;"></div>
 
         <div class="subheading mb-3">Workflow</div>
         <ul class="fa-ul mb-0">
@@ -226,42 +332,29 @@
         </div>
       </section> -->
 
-    <section class="resume-section p-3 p-lg-5 d-flex flex-column" id="awards">
+    <section class="resume-section p-3 p-lg-5 d-flex flex-column" id="certifications">
       <div class="my-auto">
-        <h2 class="mb-5">Honors &amp; Awards</h2>
+        <h2 class="mb-5">Certifications</h2>
         <ul class="fa-ul mb-0">
           <li>
             <i class="fa-li fa fa-trophy text-warning"></i>
-            Best Performance in Cloud Computing Architecture - Swinburne
-            University of Technology
+            Security Specialist (OutSystems 11)
           </li>
           <li>
             <i class="fa-li fa fa-trophy text-warning"></i>
-            Best Performance in Advanced Web Development - Swinburne
-            University of Technology
+            Architecture Specialist (OutSystems 11)
           </li>
           <li>
             <i class="fa-li fa fa-trophy text-warning"></i>
-            Best Performance in IoT Programming - Swinburne University of
-            Technology
+            Mobile Developer Specialist (OutSystems 11 and ODC)
           </li>
           <li>
             <i class="fa-li fa fa-trophy text-warning"></i>
-            Top 11 Swin Hackathon 2023 - Swinburne University of Technology
+            Front-end Developer Specialist (OutSystems 11)
           </li>
           <li>
             <i class="fa-li fa fa-trophy text-warning"></i>
-            Top 9 Swin-Biz-Rockstar 2022 - Swinburne University of Technology
-          </li>
-          <li>
-            <i class="fa-li fa fa-trophy text-warning"></i>
-            3<sup>rd</sup>
-            Place - International Conference on Intelligent Systems & Networks
-            (ICISN) - Innovation Hunt Essay Competition 2022
-          </li>
-          <li>
-            <i class="fa-li fa fa-trophy text-warning"></i>
-            Scholarship of Merits - Swinburne University of Technology
+            Associate Reactive Developer (OutSystems 11)
           </li>
         </ul>
       </div>
